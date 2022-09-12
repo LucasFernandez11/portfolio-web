@@ -1,0 +1,37 @@
+<div class="wrapper">
+  <!-- <div class="pre-title animate__animated animate__fadeInLeft delay-4">Hola mi nombre es</div> -->
+  <h1 #asTitle class="title  animate__animated animate__fadeInLeft delay-6"></h1>
+  <h2 class="sub-title  animate__animated animate__fadeInLeft delay-8">Soy desarrollador Web</h2>
+  <p class="description  animate__animated animate__fadeInLeft delay-10">
+    Me encantan las nuevas tecnologías, la programación y aprender constantemente. <br>
+    Soy un apasionado del mundo IT, amo transmitir esa pasión y mis conocimientos
+    por eso, además de programar, soy tutor de desarrollo web en la plataforma CoderHouse.
+  </p>
+
+  <div class="img-perfil animate__animated animate__fadeInLeft delay-12">
+    <hr class="hr">
+    <img src="../../assets/image/Perfil.jpeg" alt="">
+    <hr>
+  </div>
+
+  <div class="link-wrapper animate__animated animate__fadeInLeft animation-8">
+   
+    <div class="links d-flex flex-wrap">
+      <div class="block col-12 col-lg-4"
+           *ngFor="let linkObj of links;let i = index">
+        <a [href]="linkObj.link" target="_blank">
+          <div class="block-in">
+            <span [innerHTML]="linkObj.icon"></span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="footer-copy ">
+      <a [href]="dataProfile?.html_url" target="_blank">
+        <span>Desarrollado por Lucas Fernandez </span>
+        <span class="icon-footer"><i class="uil uil-star"></i> {{dataProfile?.stargazers_count}}</span>
+        <span class="icon-footer"><i class="uil uil-code-branch"></i> {{dataProfile?.stargazers_count}}</span>
+      </a>
+    </div>
+  </div>
+</div>

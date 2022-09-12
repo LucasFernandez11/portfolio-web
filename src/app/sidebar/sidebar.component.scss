@@ -1,0 +1,60 @@
+
+.wrapper{
+  padding: 1.5rem 1rem;
+}
+.pre-title{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+.title{
+ 
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--color-5);
+
+}
+
+.sub-title{
+  padding: 0.5rem 0;
+  font-size: 1.5rem;
+}
+.description{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.2rem;
+
+
+}
+.img-perfil{
+
+
+  img{
+      width: 50%;
+      max-height: 30%;
+      border-radius: 10%;
+      border: 2px solid var(--color-5);
+      
+  }
+}
+.links{
+  
+  .block{
+      height: 5rem;
+      width: 10rem;
+      padding: .15rem;
+      display: block;
+
+      .block-in{                      
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          align-content: center;
+          font-size: 1.5rem;
+          background-color: #b1afd138;
+          border-radius: 10%;
+         
+      }
+  }
+}
