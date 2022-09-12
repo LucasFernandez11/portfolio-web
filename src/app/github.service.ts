@@ -8,7 +8,7 @@ import {map} from 'rxjs/operators';
 export class GithubService {
 
  
-  private readonly urlRepoProfile = 'https://api.github.com/repos/LucasFernandez11/LucasFernandez11';
+  private readonly urlRepoProfile = 'https://api.github.com/repos/LucasFernandez11/portfolio-web';
   private readonly url = 'https://api.github.com/users/LucasFernandez11/repos';
   private readonly urlContent = 'https://raw.githubusercontent.com/wiki/LucasFernandez11';
   // private readonly urlRepoProfile = 'https://api.github.com/repos/LucasFernandez11/portfolio-web';
